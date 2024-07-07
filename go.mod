@@ -45,8 +45,8 @@ require (
 // replace
 replace (
 	github.com/ThalesIgnite/crypto11 v1.2.5 => github.com/blacknon/crypto11 v1.2.6
-	github.com/c-bata/go-prompt v0.2.6 => github.com/blacknon/go-prompt v0.2.7
 	github.com/blacknon/lssh v0.6.9 => ../lssh
+	github.com/c-bata/go-prompt v0.2.6 => github.com/blacknon/go-prompt v0.2.7
 )
 
 go 1.22.4
