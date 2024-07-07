@@ -1,7 +1,7 @@
 module github.com/blacknon/lsshell
 
 require (
-	github.com/blacknon/go-sshlib v0.1.12
+	github.com/blacknon/go-sshlib v0.1.13
 	github.com/blacknon/lssh v0.6.9
 	github.com/c-bata/go-prompt v0.2.6
 	github.com/urfave/cli v1.22.15
@@ -13,9 +13,9 @@ require (
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/BurntSushi/toml v1.3.2 // indirect
 	github.com/ScaleFT/sshkeys v0.0.0-20200327173127-6142f742bca5 // indirect
-	github.com/ThalesIgnite/crypto11 v1.2.5 // indirect
 	github.com/VividCortex/ewma v1.2.0 // indirect
 	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5 // indirect
+	github.com/blacknon/crypto11 v1.2.7 // indirect
 	github.com/blacknon/go-x11auth v0.1.0 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
 	github.com/dchest/bcrypt_pbkdf v0.0.0-20150205184540-83f37f9c154a // indirect
@@ -44,7 +44,6 @@ require (
 
 // replace
 replace (
-	github.com/ThalesIgnite/crypto11 v1.2.5 => github.com/blacknon/crypto11 v1.2.6
 	github.com/blacknon/lssh v0.6.9 => ../lssh
 	github.com/c-bata/go-prompt v0.2.6 => github.com/blacknon/go-prompt v0.2.7
 )
