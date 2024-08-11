@@ -1,11 +1,11 @@
 module github.com/blacknon/lsshell
 
 require (
-	github.com/blacknon/go-sshlib v0.1.13
-	github.com/blacknon/lssh v0.6.9
+	github.com/blacknon/go-sshlib v0.1.15
+	github.com/blacknon/lssh v0.6.11
 	github.com/c-bata/go-prompt v0.2.6
 	github.com/urfave/cli v1.22.15
-	golang.org/x/crypto v0.24.0
+	golang.org/x/crypto v0.26.0
 	mvdan.cc/sh v2.6.4+incompatible
 )
 
@@ -37,16 +37,13 @@ require (
 	github.com/sevlyar/go-daemon v0.1.5 // indirect
 	github.com/thales-e-security/pool v0.0.2 // indirect
 	github.com/vbauerster/mpb v3.4.0+incompatible // indirect
-	golang.org/x/net v0.21.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
-	golang.org/x/term v0.21.0 // indirect
+	golang.org/x/net v0.28.0 // indirect
+	golang.org/x/sys v0.23.0 // indirect
+	golang.org/x/term v0.23.0 // indirect
 )
 
 // replace
-replace (
-	github.com/blacknon/lssh v0.6.9 => ../lssh
-	github.com/c-bata/go-prompt v0.2.6 => github.com/blacknon/go-prompt v0.2.7
-)
+replace github.com/c-bata/go-prompt v0.2.6 => github.com/blacknon/go-prompt v0.2.7
 
 go 1.22.4
 
