@@ -171,9 +171,6 @@ USAGE:
 		// Local/Remote port forwarding port
 		r.PortForward = forwards
 
-		// HTTP Reverse Dynamic port forwarding port
-		// r.HTTPReverseDynamicPortForward = c.String("r")
-
 		// Get stdin data(pipe)
 		// TODO(blacknon): os.StdinをReadAllで全部読み込んでから処理する方式だと、ストリームで処理出来ない
 		//                 (全部読み込み終わるまで待ってしまう)ので、Reader/Writerによるストリーム処理に切り替える(v0.7.0)
