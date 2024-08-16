@@ -6,6 +6,10 @@ lsshell
 `lsshell` is a TUI (Text-based User Interface) tool for managing parallel SSH sessions with an easy-to-use list selection interface.
 It allows you to execute commands across multiple remote servers simultaneously, making it ideal for system administrators and developers managing multiple machines.
 
+<p align="center">
+<img src="./images/lsshell.jpg" />
+</p>
+
 This tool is a related project of [lssh](https://github.com/blacknon/lssh). It uses the same configuration file as **lssh**.
 
 ## Features
