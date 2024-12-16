@@ -1,7 +1,7 @@
 module github.com/blacknon/lsshell
 
 require (
-	github.com/blacknon/go-sshlib v0.1.16
+	github.com/blacknon/go-sshlib v0.1.17
 	github.com/blacknon/lssh v0.6.11
 	github.com/c-bata/go-prompt v0.2.6
 	github.com/urfave/cli v1.22.15
